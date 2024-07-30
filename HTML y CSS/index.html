@@ -1,0 +1,323 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <!-- Codificación -->
+    <meta charset="utf-8" />
+    <title>Machine Learning Workshop</title>
+    <!-- Responsive -->
+    <meta name="viewport" content="width=device-width" />
+    <!-- <link rel="stylesheet" href="styles.css"> -> para añadir el css -->
+    <link rel="icon" sizes="16x16 32x32 48x48" type="image/png" href="/images/favicon-16x16.png" />
+    <meta name="description"
+        content="Register for a machine learning workshop at our school for machines who can't learn good and want to do other stuff good too" />
+    <link href="css/reset.css" rel="stylesheet">
+    <link href="css/listas.css" rel="stylesheet">
+</head>
+
+<body>
+    <header>
+        <!-- Función de banner -->
+        <h1>Machine Learning Workshop</h1>
+        <nav>
+            <ul class="no-style vertical">
+                <li><a href="#sections">Secciones</a></li>
+                <li><a href="#text">Texto</a></li>
+                <li><a href="#links">Enlaces</a></li>
+                <li><a href="#lists">Listas</a></li>
+                <li><a href="#tables">Tablas</a></li>
+                <li><a href="#forms">Formularios</a></li>
+                <li><a href="#images">Imágenes</a></li>
+            </ul>
+        </nav>
+
+        <nav>
+            <ul class="no-style horizontal">
+                <li><a href="#sections">Secciones</a></li>
+                <li><a href="#text">Texto</a></li>
+                <li><a href="#links">Enlaces</a></li>
+                <li><a href="#lists">Listas</a></li>
+                <li><a href="#tables">Tablas</a></li>
+                <li><a href="#forms">Formularios</a></li>
+                <li><a href="#images">Imágenes</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <!-- El contenido que hace a esta página única -->
+        <header>
+            <h1>Curso de HTML</h1>
+        </header>
+        <section id="sections">
+            <!-- h1 para secciones, h2 para subsecciones, h3 para subsubsecciones... -->
+            <h2>Secciones</h2>
+            <article>
+                <!-- Cada post de un blog -->
+                <p>Article (cada post de un blog)</p>
+                <p>
+                    h1 para secciones, h2 para subsecciones, h3 para subsubsecciones...
+                </p>
+            </article>
+        </section>
+
+        <section id="text">
+            <h2>Texto</h2>
+
+            <h1>Esto es un H1</h1>
+            <h2>Esto es un H2</h2>
+            <h3>Esto es un H3</h3>
+            <h4>Esto es un H4</h4>
+            <h5>Esto es un H5</h5>
+            <h6>Esto es un H6</h6>
+
+            <p>Esto es un párrafo</p>
+
+            <h3>Esto es un Blockquote (para párrafos enteros)</h3>
+            <blockquote>
+                <p>
+                    A pesar de lo que muchos piensan, el libro no es autobiográfico,
+                    aunque podría encajar en la mayor parte de mi vida.
+                </p>
+                <footer>- María Álvarez, autora del libro "Bla bla bla"</footer>
+            </blockquote>
+
+            <h3>Esto es un q (para fragmentos cortos)</h3>
+            <p>
+                La autora del libro asegura que <q>no es autobiográfico</q> aunque
+                tiene similitudes con su vida.
+            </p>
+
+            <h3>Esto es un cite (para indicar la fuente)</h3>
+            <cite>María Álvarez, autora del libro "Bla bla bla"</cite>
+        </section>
+
+        <section id="links">
+            <h2>Enlaces</h2>
+
+            <a href="https://machinelearningworkshop.com">Machine Learning Workshop</a>
+            <a href="#teachers">Our teachers</a>
+            <a href="https://machinelearningworkshop.com#teachers">MLW teachers</a>
+            <a href="mailto:hal9000@machinelearningworkshop.com">Email Hal</a>
+            <a href="tel:8005551212">Call Hal</a>
+            <a href="#top">Go to top.</a>
+        </section>
+
+        <section id="lists">
+            <h2>Listas</h2>
+
+            <h3>Lista sin ordenar</h3>
+
+            <ul>
+                <li>Blender</li>
+                <li>Toaster</li>
+                <li>Vacuum</li>
+            </ul>
+
+            <h3>Lista ordenada</h3>
+
+            <ol>
+                <li>Blender</li>
+                <li>Toaster</li>
+                <li>Vacuum</li>
+            </ol>
+
+            <ol type="A">
+                <li>Blender</li>
+                <li>Toaster</li>
+                <li>Vacuum</li>
+            </ol>
+
+            <ol reversed start="6">
+                <li>Blender</li>
+                <li>Toaster</li>
+                <li>Vacuum</li>
+            </ol>
+
+            <h3>Lista de descripciones</h3>
+            <dl>
+                <dt>Blendan Smooth</dt>
+                <dd>
+                    Originally a margarita maker, they are now an aspiring load
+                    balancer.
+                </dd>
+                <dt>Toasty McToastface</dt>
+                <dd>
+                    Formerly partially to fully baked, they are now an aspiring nuclear
+                    codes handler.
+                </dd>
+            </dl>
+        </section>
+
+        <section id="tables">
+            <h2>Tablas</h2>
+
+            <table>
+                <caption>
+                    Ejemplo de tabla con elementos secundarios
+                </caption>
+                <colgroup>
+                    <col style="background-color: lightblue" />
+                    <col style="background-color: lightgreen" />
+                    <col style="background-color: lightyellow" />
+                    <col style="background-color: lightpink" />
+                </colgroup>
+                <thead>
+                    <tr>
+                        <th rowspan="2" id="name" scope="col">Nombre</th>
+                        <th colspan="2" id="path">Camino profesional</th>
+                        <th rowspan="2" id="year">Año</th>
+                    </tr>
+                    <tr>
+                        <th scope="col">Pasado</th>
+                        <th scope="col">Destino</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <th scope="row">Hal Gibrah</th>
+                        <td headers="hal path past">Calculadora</td>
+                        <td headers="hal path future">Rover en Marte</td>
+                        <td>2020</td>
+                    </tr>
+                    <tr>
+                        <th scope="row">Cathy Terr</th>
+                        <td headers="cathy path past">Eliminación de residuos</td>
+                        <td headers="cathy path future">Cajero automático</td>
+                        <td>2018</td>
+                    </tr>
+                    <tr>
+                        <th scope="row">Lou Minious</th>
+                        <td headers="lou path past">Bombilla</td>
+                        <td headers="lou path future">Bombilla inteligente</td>
+                        <td>1956</td>
+                    </tr>
+                </tbody>
+                <tfoot>
+                    <tr>
+                        <td colspan="4">Contenido del pie de página</td>
+                    </tr>
+                </tfoot>
+            </table>
+        </section>
+
+        <section id="forms">
+            <h2>Formularios</h2>
+            <!-- POST es para formularios de registro y GET para formularios de búsqueda -->
+            <form action="index.html" method="POST" autocomplete="on">
+                <fieldset>
+                    <legend>Formulario de registro</legend>
+
+                    <label for="name">Usuario:</label>
+                    <input type="text" id="name" name="name" placeholder="Usuario" required />
+                    <br />
+
+                    <label for="pass">Password (8 caracteres mínimo):</label>
+                    <input type="password" id="pass" name="password"
+                        pattern="(?=.*\d)(?=.*[a-z])(?=.*[A-Z])(?=.*\W).{8,}"
+                        title="La contraseña debe tener al menos 8 caracteres, incluyendo un número, una mayúscula, una minúscula y un carácter especial."
+                        required />
+                    <br />
+
+                    <label for="email">Email:</label>
+                    <input type="email" id="email" pattern=".+@example\.com" size="30"
+                        placeholder="gguibert@alumnos.unex.es" required >
+                    <br />
+
+                    <label for="phone">
+                        Número de teléfono:<br />
+                        <small>Formato: 123456789</small>
+                    </label>
+                    <input type="tel" id="phone" name="phone" pattern="[0-9]{9}" required >
+                    <br />
+
+                    <label for="website">Tu página web:</label>
+                    <input type="url" id="website" name="website" placeholder="https://www.example.com">
+                    <br>
+
+                    <label for="birthDate">Fecha nacimiento:</label>
+                    <input type="date" id="birthDate" name="birthDate" required />
+                    <br />
+
+                    <label for="experience">Años de experiencia (0-100):</label>
+                    <input type="number" id="experience" name="experience" min="0" max="100" />
+                    <br />
+
+                    <label for="avatar">Elige una foto de perfil:</label>
+                    <input type="file" id="avatar" name="avatar" accept="image/png, image/jpeg" />
+                </fieldset>
+            </form>
+
+            <form action="/procesar_formulario" method="post">
+                <fieldset>
+                    <legend>Otros campos</legend>
+
+                    <label><input type="radio" name="priority" value="baja">Baja</label>
+                    <label><input type="radio" name="priority" value="media">Media</label>
+                    <label><input type="radio" name="priority" value="alta">Alta</label>
+                    <br />
+
+                    <label><input type="checkbox" name="ingredientes" value="peperonni">Peperonni</label>
+                    <label><input type="checkbox" name="ingredientes" value="champis">Champis</label>
+                    <label><input type="checkbox" name="ingredientes" value="carne">Carne picada</label>
+                    <label><input type="checkbox" name="ingredientes" value="anchoas">Anchoas</label>
+                    <br />
+
+                    <!-- Menú desplegable -->
+                    <label for="pais">País:</label>
+                    <select id="pais" name="pais">
+                        <option value="es">España</option>
+                        <option value="mx">México</option>
+                        <option value="ar">Argentina</option>
+                    </select>
+                    <br />
+
+                    <input type="range" id="volumen" name="volumen" min="0" max="100" value="90" step="10" />
+                    <label for="volumen">Volumen</label>
+                    <br>
+
+                    <label for="colorexample">Color favorito:</label>
+                    <input type="color" id="colorexample" name="colorexample">
+                    <br>
+
+                    <label for="search">Buscar</label>
+                    <input type="search" id="search" name="search">
+                </fieldset>
+
+                <fieldset>
+                    <legend>Comentarios</legend>
+                    <!-- Área de texto -->
+                    <label for="comentarios">Comentarios:</label>
+                    <textarea id="comentarios" name="comentarios" rows="4" cols="50"></textarea><br /><br />
+                </fieldset>
+
+                <!-- Botón de envío -->
+                <button type="submit">Enviar</button>
+                <input type="reset" value="Reset" />
+            </form>
+        </section>
+
+        <section id="images">
+            <h2>Imágenes</h2>
+            
+            <img src="images/yesman.jpg" alt="Cara sonriente" width="736" height="460" title="Yes man" />
+        </section>
+
+        <section>
+            <h2>Template</h2>
+        </section>
+    </main>
+    <footer>
+        <a href="https://machinelearningworkshop.com">Machine Learning Workshop</a>
+        <a href="#teachers">Our teachers</a>
+        <a href="https://machinelearningworkshop.com#teachers">MLW teachers</a>
+        <a href="mailto:hal9000@machinelearningworkshop.com">Email Hal</a>
+        <a href="tel:8005551212">Call Hal</a>
+        <p>&copy;2022 Machine Learning Workshop, LLC. All rights reserved.</p>
+        <!-- Contacto -->
+        <address>
+            Instructors: <a href="/hal.html">Hal</a> and <a href="/eve.html">Eve</a>
+        </address>
+    </footer>
+</body>
+
+</html>

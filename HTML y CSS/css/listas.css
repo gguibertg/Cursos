@@ -1,0 +1,68 @@
+/*----------------*/
+/*-----LISTAS-----*/
+/*----------------*/
+
+/*---Cambiar el icono de la lista*---/
+
+/*disk, circle o square*/
+ul {
+    list-style-type: circle;
+}
+
+/*---Posición---*/
+
+.in{
+    list-style-position: inside;
+}
+
+.out{
+    list-style-position: outside;
+}
+
+/*---Imagen de icono---*/
+.triangulo {
+    list-style-image: url(/images/favicon-16x16.png);
+}
+
+/*---Barra de navegación---*/
+
+a {
+    text-decoration: none;
+}
+
+.no-style{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+.vertical a{
+    display: block;
+    width: 120px;
+    color: #FFFFFF;
+    background-color: #98BF21;
+    text-align: center;
+    padding: 4px;
+}
+
+.vertical a:hover, .vertical a:active {
+    background-color: #7A991A;
+}
+
+.horizontal li{
+    float: left;
+    margin: 0;
+    padding: 0;
+}
+
+.horizontal a{
+    margin: 0;
+    color: #FFFFFF;
+    background-color: #98BF21;
+    text-align: center;
+    padding: 4px;
+}
+
+.horizontal a:hover, .vertical a:active {
+    background-color: #7A991A;
+}
